@@ -8,7 +8,7 @@ services:
       target: production
     container_name: excalidraw
     ports:
-      - "5010:80"
+      - "5010:8080"
     restart: always
     healthcheck:
       disable: true
