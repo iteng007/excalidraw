@@ -30,7 +30,7 @@ services:
   excalidraw-room:
     image: excalidraw/excalidraw-room
     ports:
-      - "5001:80"
+      - "5012:80"
   postgres:
     image: postgres:15-alpine
     environment:
