@@ -24,5 +24,4 @@ RUN chown -R nginx:nginx /usr/share/nginx/html \
 
 HEALTHCHECK CMD wget -q -O /dev/null http://localhost || exit 1
 
-USER nginx
 
